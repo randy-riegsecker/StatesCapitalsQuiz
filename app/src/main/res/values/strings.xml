@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">States &amp; Capitals Quiz</string>
+    <string name="question">What is the capital of StateName?</string>
+    <string name="question_num"></string>
+    <string name="answer_a">Answer A</string>
+    <string name="answer_b">Answer B</string>
+    <string name="answer_c">Answer C</string>
+    <string name="answer_d">Answer D</string>
+    <string name="answer_e">Answer E</string>
+    <string name="submit_answer">Submit Answer</string>
+    <string name="choose_an_answer">Choose An Answer!</string>
+    <string name="correct_answer">Correct!</string>
+</resources>

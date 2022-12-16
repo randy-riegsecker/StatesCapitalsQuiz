@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-xhdpi_ic_map.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-xhdpi/ic_map.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-xxhdpi_ic_map_round.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-xxhdpi/ic_map_round.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-xxhdpi_ic_map.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-xxhdpi/ic_map.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-xxxhdpi_ic_map.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-xxxhdpi/ic_map.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-xxxhdpi_ic_map_foreground.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-xxxhdpi/ic_map_foreground.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/font_pacifico.ttf.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/font/pacifico.ttf"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-mdpi_ic_map_round.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-mdpi/ic_map_round.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-mdpi_ic_map_foreground.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-mdpi/ic_map_foreground.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-xhdpi_ic_map_round.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-xhdpi/ic_map_round.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-hdpi_ic_map.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-hdpi/ic_map.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-hdpi_ic_map_round.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-hdpi/ic_map_round.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-mdpi_ic_map.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-mdpi/ic_map.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-xhdpi_ic_map_foreground.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-xhdpi/ic_map_foreground.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-anydpi-v26_ic_map.xml.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-anydpi-v26/ic_map.xml"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/layout_activity_quiz.xml.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-anydpi-v26_ic_map_round.xml.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-anydpi-v26/ic_map_round.xml"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/font_antic_slab.ttf.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/font/antic_slab.ttf"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-xxhdpi_ic_map_foreground.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-xxhdpi/ic_map_foreground.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-hdpi_ic_map_foreground.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-hdpi/ic_map_foreground.png"
+    },
+    {
+        "merged": "com.randyriegsecker.statescapitalsquiz.app-merged_res-29:/mipmap-xxxhdpi_ic_map_round.png.flat",
+        "source": "com.randyriegsecker.statescapitalsquiz.app-main-31:/mipmap-xxxhdpi/ic_map_round.png"
+    }
+]
