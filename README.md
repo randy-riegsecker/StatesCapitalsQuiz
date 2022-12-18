@@ -4,7 +4,7 @@ Each question has five possible multiple choice answers (mostly the well-known c
 
 Good luck seeing if you might be the next Jeopardy champion!
 
-The code is written in Java and the application was developed using Android Studio, and the quiz could be a reusable framework that can be modified to use your own questions.
+The code is written in Java and the application was developed using Android Studio.  The quiz could be a reusable framework that can be modified to use your own questions.
 
 Randy Riegsecker
 
