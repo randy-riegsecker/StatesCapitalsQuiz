@@ -1,6 +1,6 @@
 # States & Capitals Quiz
 States & Capitals is a quiz that tests your knowledge of the capitals of the 50 states in the United States.
-Each question has five possible multiple choice answers (mostly the well-known cities in each state) to guess from in addition to the correct answer.  To make the test random, the question order is randomized along with the answer order each time it's run.
+Each question has five possible multiple choice answers (mostly the well-known cities in each state) to guess from, with one correct answer.  To make the test random, the question order and answer order are the ramdonized each time a quiz is started.
 
 Good luck seeing if you might be the next Jeopardy champion!
 
