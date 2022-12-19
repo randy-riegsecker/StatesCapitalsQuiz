@@ -24,11 +24,11 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="84dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="76dp"
         android:fontFamily="@font/pacifico"
         android:includeFontPadding="false"
-        android:text="Test Your Knowledge!"
+        android:text="@string/test_knowledge"
         android:textAlignment="center"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="24sp"
@@ -39,9 +39,9 @@
 
     <Button
         android:id="@+id/start_button"
-        android:layout_width="171dp"
+        android:layout_width="170dp"
         android:layout_height="46dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:background="#2196F3"
         android:backgroundTint="@null"
         android:text="Start Quiz"
@@ -60,6 +60,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/start_button" />
+        app:layout_constraintTop_toBottomOf="@+id/start_button"
+        app:layout_constraintVertical_bias="0.7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
