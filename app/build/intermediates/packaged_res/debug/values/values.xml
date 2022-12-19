@@ -16,11 +16,15 @@
     <string name="answer_d">Answer D</string>
     <string name="answer_e">Answer E</string>
     <string name="app_name">States &amp; Capitals Quiz</string>
+    <string name="app_title">States &amp; Capitals</string>
     <string name="choose_an_answer">Choose An Answer!</string>
     <string name="correct_answer">Correct!</string>
+    <string name="github_link">https://github.com/randy-riegsecker/</string>
     <string name="question">What is the capital of StateName?</string>
     <string name="question_num"/>
+    <string name="start_button">Start Quiz</string>
     <string name="submit_answer">Submit Answer</string>
+    <string name="test_knowledge">Test Your Knowledge!</string>
     <style name="Theme.StatesCapitalsQuiz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/blue_button</item>

@@ -2846,6 +2846,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id github_text
 id gone
 id graph
 id graph_wrap
@@ -2875,6 +2876,7 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id knowledge_text
 id labeled
 id layout
 id left
@@ -3079,9 +3081,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
-id textView2
-id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3095,6 +3094,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id title_text
 id toggle
 id top
 id topPanel
@@ -3366,6 +3366,7 @@ string answer_c
 string answer_d
 string answer_e
 string app_name
+string app_title
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
@@ -3384,6 +3385,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string github_link
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -3482,8 +3484,10 @@ string path_password_strike_through
 string question
 string question_num
 string search_menu_title
+string start_button
 string status_bar_notification_info_overflow
 string submit_answer
+string test_knowledge
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

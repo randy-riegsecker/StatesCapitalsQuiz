@@ -2845,6 +2845,7 @@ int id frost 0x7f0900c8
 int id fullscreen_header 0x7f0900c9
 int id ghost_view 0x7f0900ca
 int id ghost_view_holder 0x7f0900cb
+int id github_text 0x7f0901e8
 int id gone 0x7f0900cc
 int id graph 0x7f0900cd
 int id graph_wrap 0x7f0900ce
@@ -2874,6 +2875,7 @@ int id italic 0x7f0900e5
 int id item_touch_helper_previous_elevation 0x7f0900e6
 int id jumpToEnd 0x7f0900e7
 int id jumpToStart 0x7f0900e8
+int id knowledge_text 0x7f0901e9
 int id labeled 0x7f0900e9
 int id layout 0x7f0900ea
 int id left 0x7f0900eb
@@ -3078,9 +3080,6 @@ int id textSpacerNoButtons 0x7f0901b1
 int id textSpacerNoTitle 0x7f0901b2
 int id textStart 0x7f0901b3
 int id textTop 0x7f0901b4
-int id textView 0x7f0901b5
-int id textView2 0x7f0901b6
-int id textView3 0x7f0901b7
 int id text_input_end_icon 0x7f0901b8
 int id text_input_error_icon 0x7f0901b9
 int id text_input_start_icon 0x7f0901ba
@@ -3094,6 +3093,7 @@ int id time 0x7f0901c1
 int id title 0x7f0901c2
 int id titleDividerNoCustom 0x7f0901c3
 int id title_template 0x7f0901c4
+int id title_text 0x7f0901ea
 int id toggle 0x7f0901c5
 int id top 0x7f0901c6
 int id topPanel 0x7f0901c7
@@ -3365,6 +3365,7 @@ int string answer_c 0x7f10001e
 int string answer_d 0x7f10001f
 int string answer_e 0x7f100020
 int string app_name 0x7f100021
+int string app_title 0x7f10009a
 int string appbar_scrolling_view_behavior 0x7f100022
 int string bottom_sheet_behavior 0x7f100023
 int string bottomsheet_action_collapse 0x7f100024
@@ -3383,6 +3384,7 @@ int string error_icon_content_description 0x7f100030
 int string exposed_dropdown_menu_content_description 0x7f100031
 int string fab_transformation_scrim_behavior 0x7f100032
 int string fab_transformation_sheet_behavior 0x7f100033
+int string github_link 0x7f10009b
 int string hide_bottom_view_on_scroll_behavior 0x7f100034
 int string icon_content_description 0x7f100035
 int string item_view_role_description 0x7f100036
@@ -3481,8 +3483,10 @@ int string path_password_strike_through 0x7f100092
 int string question 0x7f100093
 int string question_num 0x7f100094
 int string search_menu_title 0x7f100095
+int string start_button 0x7f100099
 int string status_bar_notification_info_overflow 0x7f100096
 int string submit_answer 0x7f100097
+int string test_knowledge 0x7f100098
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style Animation_AppCompat_Dialog 0x7f110002
