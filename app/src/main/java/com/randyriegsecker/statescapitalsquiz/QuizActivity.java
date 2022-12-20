@@ -92,6 +92,7 @@ public class QuizActivity extends AppCompatActivity {
             String correctAnswer;
             String correctAnswerToast;
 
+            // Something was selected, so we see if it's correct
             if (currentClickedAnswer != null ) {
                 correctAnswer = quizQuestions.getCorrectAnswer(randomQuestionOrder.getInt(questionIndex));
 
@@ -105,9 +106,10 @@ public class QuizActivity extends AppCompatActivity {
                     // Toast.makeText(getApplicationContext(), R.string.incorrect_answer, Toast.LENGTH_SHORT).show();
                     Toast.makeText(getApplicationContext(), correctAnswerToast, Toast.LENGTH_SHORT).show();
                 }
-                // Adjust and reset counters and on to the next question
+                // reset the answer button to none selected
                 currentClickedAnswer = null;
                 lastClickedAnswer = null;
+                // on to the next queston
                 ++questionIndex;
                 loadQuestion();
             } else {
