@@ -74,7 +74,7 @@ public class QuizActivity extends AppCompatActivity {
             currentClickedAnswer = (Button) v;
 
             // change last selected answer back to blue, if there is one
-            if (lastClickedAnswer != null && currentClickedAnswer != lastClickedAnswer)
+            if ((lastClickedAnswer != null) && (currentClickedAnswer != lastClickedAnswer))
                 lastClickedAnswer.setBackgroundResource(R.color.blue_button);
 
             // Change the selected answer to gray
