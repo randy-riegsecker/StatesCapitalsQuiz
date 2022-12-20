@@ -126,7 +126,6 @@ public class Questions {
     public void fillCorrectAnswers() {
         for (int index = 0; index < numQuestions; index++) {
             correctAnswers.add(questionList[index][1]);
-            System.out.println("Correct Answer " + index + " is " + correctAnswers.get(index));
         }
     }
 
