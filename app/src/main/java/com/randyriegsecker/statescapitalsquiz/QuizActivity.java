@@ -25,6 +25,7 @@ public class QuizActivity extends AppCompatActivity {
     Button answerA, answerB, answerC, answerD, answerE;
     Button submitButton;
     Button currentClickedAnswer = null;
+    Button lastClickedAnswer = null;
 
     TextView questionText;
     TextView questionNumberText;
@@ -69,18 +70,18 @@ public class QuizActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
 
-            // This is brute force and lazy.  Make answers all blue again
-            // in case a previous answer was selected.
-            answerA.setBackgroundResource(R.color.blue_button);
-            answerB.setBackgroundResource(R.color.blue_button);
-            answerC.setBackgroundResource(R.color.blue_button);
-            answerD.setBackgroundResource(R.color.blue_button);
-            answerE.setBackgroundResource(R.color.blue_button);
-
+            // find currently selected answer
             currentClickedAnswer = (Button) v;
+
+            // change last selected answer back to blue, if there is one
+            if (lastClickedAnswer != null && currentClickedAnswer != lastClickedAnswer)
+                lastClickedAnswer.setBackgroundResource(R.color.blue_button);
 
             // Change the selected answer to gray
             currentClickedAnswer.setBackgroundColor(Color.GRAY);
+
+            // save current button as the last answer selected for the next iteration
+            lastClickedAnswer = (Button) v;
         }
     };
 
@@ -104,7 +105,9 @@ public class QuizActivity extends AppCompatActivity {
                     // Toast.makeText(getApplicationContext(), R.string.incorrect_answer, Toast.LENGTH_SHORT).show();
                     Toast.makeText(getApplicationContext(), correctAnswerToast, Toast.LENGTH_SHORT).show();
                 }
-                // Go on to next question
+                // Adjust and reset counters and on to the next question
+                currentClickedAnswer = null;
+                lastClickedAnswer = null;
                 ++questionIndex;
                 loadQuestion();
             } else {
