@@ -1,10 +1,10 @@
 # States & Capitals Quiz
-States & Capitals is a quiz that tests your knowledge of the capitals of the 50 states in the United States.
-Each question has five possible multiple choice answers (mostly the well-known cities in each state) to guess from, with one correct answer.  To make the quiz more challenging, the question and order are randomized each time a quiz is started.
+**States & Capitals Quiz** is a quiz that tests your knowledge of the capitals of the 50 states in the United States.
+Each question has five possible multiple choice answers (mostly the well-known cities in each state) to guess from, with one correct answer.  To make the quiz more challenging, the question and answer order are randomized each time the quiz is started.
 
 Good luck seeing if you might be the next Jeopardy champion!
 
-The code is written in Java and the application was developed using Android Studio.  While I am working on developing a more generic quiz framework, this code could be modified to use your own questions.
+The code is written in Java and the application was developed using Android Studio.  While I am working on a publishing a generic quiz framework, this code could be modified to use with your own questions.
 
 Randy Riegsecker
 
