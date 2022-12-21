@@ -6,6 +6,8 @@ Good luck seeing if you might be the next Jeopardy champion!
 
 The code is written in Java and the application was developed using Android Studio.  While I am working on a publishing a generic quiz framework, this code could be modified to use with your own questions.
 
+Happy Quizzing!
+
 Randy Riegsecker
 
 Title Screen
