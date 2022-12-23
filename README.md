@@ -13,7 +13,8 @@ Randy Riegsecker
 Title Screen
 ![Title](https://user-images.githubusercontent.com/120612915/208112512-4268e3e1-e2cc-45fe-b6e1-db6922fc3b77.png)
 
-Quiz Screens
+Quiz Screen
 ![Quiz](https://user-images.githubusercontent.com/120612915/207758244-72e1b859-b7fa-423a-aea5-8905f0a39fd9.png)
 
+Quiz End
 ![End](https://user-images.githubusercontent.com/120612915/208124341-fa90f8a2-b69d-44be-90d4-8953f0700c55.png)
