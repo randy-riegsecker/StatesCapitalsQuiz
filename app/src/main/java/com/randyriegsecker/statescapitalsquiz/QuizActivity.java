@@ -74,11 +74,16 @@ public class QuizActivity extends AppCompatActivity {
             currentClickedAnswer = (Button) v;
 
             // change last selected answer back to blue, if there is one
-            if ((lastClickedAnswer != null) && (currentClickedAnswer != lastClickedAnswer))
+            if ((lastClickedAnswer != null) && (currentClickedAnswer != lastClickedAnswer)) {
                 lastClickedAnswer.setBackgroundResource(R.color.blue_button);
+                // Future use
+                lastClickedAnswer.setSelected(false);
+            }
 
             // Change the selected answer to gray
             currentClickedAnswer.setBackgroundColor(Color.GRAY);
+            // Future use
+            currentClickedAnswer.setSelected(true);
 
             // save current button as the last answer selected for the next iteration
             lastClickedAnswer = (Button) v;
@@ -106,10 +111,8 @@ public class QuizActivity extends AppCompatActivity {
                     // Toast.makeText(getApplicationContext(), R.string.incorrect_answer, Toast.LENGTH_SHORT).show();
                     Toast.makeText(getApplicationContext(), correctAnswerToast, Toast.LENGTH_SHORT).show();
                 }
-                // reset the answer button to none selected
-                currentClickedAnswer = null;
-                lastClickedAnswer = null;
-                // on to the next queston
+
+                // On to the next question
                 ++questionIndex;
                 loadQuestion();
             } else {
@@ -126,6 +129,7 @@ public class QuizActivity extends AppCompatActivity {
             // More questions to answer...
             // Reset clicked answer nothing selected
             currentClickedAnswer = null;
+            lastClickedAnswer = null;
 
             questionText.setText(quizQuestions.getQuestion(randomQuestionOrder.getInt(questionIndex)));
             answerA.setBackgroundResource(R.color.blue_button);

@@ -4,6 +4,7 @@ package com.randyriegsecker.statescapitalsquiz;
 // Date: 2022/12/01
 // States & Capitals Quiz main activity
 // This is the title screen for the first activity
+// https://github.com/randy-riegsecker/StatesCapitalsQuiz
 
 import androidx.appcompat.app.AppCompatActivity;
 
