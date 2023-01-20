@@ -12,7 +12,7 @@ Randy Riegsecker
 
 ## Title Screen
 
-![Title](https://user-images.githubusercontent.com/120612915/208112512-4268e3e1-e2cc-45fe-b6e1-db6922fc3b77.png)
+![MainGameScreen](https://user-images.githubusercontent.com/120612915/213807320-d2221130-fca7-4c11-93b5-f9a66abd7818.png)
 
 ## Quiz Screens
 ![Quiz](https://user-images.githubusercontent.com/120612915/207758244-72e1b859-b7fa-423a-aea5-8905f0a39fd9.png)
