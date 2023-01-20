@@ -1,5 +1,5 @@
 # States & Capitals Quiz
-**States & Capitals Quiz** is a quiz that tests your knowledge of the capitals of the 50 states in the United States.
+![ic_map_round](https://user-images.githubusercontent.com/120612915/213807521-581bf2b0-9b25-4a21-bbd5-3fa85e66fbbe.png)**States & Capitals Quiz** is a quiz that tests your knowledge of the capitals of the 50 states in the United States.
 Each question has five possible multiple choice answers (mostly the well-known cities in each state) to guess from, with one correct answer.  To make the quiz more challenging, the question and answer order are randomized each time the quiz is started.
 
 Good luck seeing if you might be the next Jeopardy champion!
@@ -12,7 +12,7 @@ Randy Riegsecker
 
 ## Title Screen
 
-![Title](https://user-images.githubusercontent.com/120612915/208112512-4268e3e1-e2cc-45fe-b6e1-db6922fc3b77.png)
+![MainGameScreen](https://user-images.githubusercontent.com/120612915/213807320-d2221130-fca7-4c11-93b5-f9a66abd7818.png)
 
 ## Quiz Screens
 ![Quiz](https://user-images.githubusercontent.com/120612915/207758244-72e1b859-b7fa-423a-aea5-8905f0a39fd9.png)
