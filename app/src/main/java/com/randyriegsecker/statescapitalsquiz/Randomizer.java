@@ -85,7 +85,7 @@ public class Randomizer {
     }
 
     // Shuffle or Reshuffle the ArrayList
-    public void shuffleNumberList() {
+    private void shuffleNumberList() {
 
         // SecureRandom is much better than Random
         Random random = new SecureRandom();

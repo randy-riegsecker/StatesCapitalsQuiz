@@ -30,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 // Launch the quiz activity
-                Intent quizIntent;
-                quizIntent = new Intent(MainActivity.this, QuizActivity.class);
+                Intent quizIntent = new Intent(MainActivity.this, QuizActivity.class);
                 startActivity(quizIntent);
             }
         });

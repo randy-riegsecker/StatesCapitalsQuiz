@@ -2,7 +2,8 @@ package com.randyriegsecker.statescapitalsquiz;
 
 // Author: Randy Riegsecker
 // Date: 2022/05/31
-// States & Capitals Quiz main class activity
+// States & Capitals Quiz quiz activity
+// https://github.com/randy-riegsecker/StatesCapitalsQuiz
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -2,6 +2,8 @@ package com.randyriegsecker.statescapitalsquiz;
 
 // Author: Randy Riegsecker
 // Date: 2022/12/01
+// States & Capitals Quiz quiz questions
+// https://github.com/randy-riegsecker/StatesCapitalsQuiz
 
 // This is your question list and quiz setup.  There's no error checking so make sure it's accurate.
 // The number of questions can be anything you want.  The example test has 50 questions with 5 options each.
