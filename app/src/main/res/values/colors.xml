@@ -7,5 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue_button_2">#252573</color>
     <color name="blue_button">#2196F3</color>
+    <color name="dark_blue_button">#181860</color>
+    <color name="light_blue_button">#2196FF</color>
+    <color name="gray_button">#888888</color>
+    <color name="submit_button_green">#66AA44</color>
+    <color name="submit_button_gray">#777777</color>
 </resources>

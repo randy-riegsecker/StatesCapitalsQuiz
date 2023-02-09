@@ -5,12 +5,15 @@ package com.randyriegsecker.statescapitalsquiz;
 // States & Capitals Quiz quiz activity
 // https://github.com/randy-riegsecker/StatesCapitalsQuiz
 
+import static android.content.ContentValues.TAG;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 import android.view.View;
@@ -74,20 +77,31 @@ public class QuizActivity extends AppCompatActivity {
             // find currently selected answer
             currentClickedAnswer = (Button) v;
 
-            // change last selected answer back to blue, if there is one
-            if ((lastClickedAnswer != null) && (currentClickedAnswer != lastClickedAnswer)) {
-                lastClickedAnswer.setBackgroundResource(R.color.blue_button);
+            // deselect answer if it's selected and clicked again
+            if (currentClickedAnswer.isSelected()) {
+                currentClickedAnswer.setBackgroundResource(R.color.blue_button);
                 // Future use
-                lastClickedAnswer.setSelected(false);
+                currentClickedAnswer.setSelected(false);
+                // reset clicked answer to nothing selected
+                currentClickedAnswer = null;
+
+            } else {
+                // change last selected answer back to blue, if there is one
+                if ((lastClickedAnswer != null) && (currentClickedAnswer != lastClickedAnswer)) {
+                    lastClickedAnswer.setBackgroundResource(R.color.blue_button);
+                    // Future use
+                    lastClickedAnswer.setSelected(false);
+                }
+
+                // Change the selected answer to gray
+                // currentClickedAnswer.setBackgroundColor(Color.GRAY);
+                currentClickedAnswer.setBackgroundResource(R.color.gray_button);
+                // Future use
+                currentClickedAnswer.setSelected(true);
+
+                // save current button as the last answer selected for the next iteration
+                lastClickedAnswer = (Button) v;
             }
-
-            // Change the selected answer to gray
-            currentClickedAnswer.setBackgroundColor(Color.GRAY);
-            // Future use
-            currentClickedAnswer.setSelected(true);
-
-            // save current button as the last answer selected for the next iteration
-            lastClickedAnswer = (Button) v;
         }
     };
 
@@ -99,7 +113,7 @@ public class QuizActivity extends AppCompatActivity {
             String correctAnswerToast;
 
             // Something was selected, so we see if it's correct
-            if (currentClickedAnswer != null ) {
+            if (currentClickedAnswer != null) {
                 correctAnswer = quizQuestions.getCorrectAnswer(randomQuestionOrder.getInt(questionIndex));
 
                 if (correctAnswer == currentClickedAnswer.getText()) {
@@ -109,6 +123,7 @@ public class QuizActivity extends AppCompatActivity {
                 } else {
                     // Comment out the two lines below if you don't want to let the test taker know the answer was wrong
                     correctAnswerToast = "Incorrect.  The correct answer is " + correctAnswer;
+                    // This toast just reads "Incorrect answer, but does not tell you the correct one.
                     // Toast.makeText(getApplicationContext(), R.string.incorrect_answer, Toast.LENGTH_SHORT).show();
                     Toast.makeText(getApplicationContext(), correctAnswerToast, Toast.LENGTH_SHORT).show();
                 }
@@ -128,21 +143,26 @@ public class QuizActivity extends AppCompatActivity {
 
         if (questionIndex < totalNumberOfQuestions) {
             // More questions to answer...
-            // Reset clicked answer nothing selected
+            // Initialize the buttons and reset clicked answer nothing selected
             currentClickedAnswer = null;
             lastClickedAnswer = null;
 
             questionText.setText(quizQuestions.getQuestion(randomQuestionOrder.getInt(questionIndex)));
             answerA.setBackgroundResource(R.color.blue_button);
+            answerA.setSelected(false);
             answerA.setText(quizQuestions.getAnswerA(randomQuestionOrder.getInt(questionIndex)));
             answerB.setBackgroundResource(R.color.blue_button);
             answerB.setText(quizQuestions.getAnswerB(randomQuestionOrder.getInt(questionIndex)));
+            answerB.setSelected(false);
             answerC.setBackgroundResource(R.color.blue_button);
             answerC.setText(quizQuestions.getAnswerC(randomQuestionOrder.getInt(questionIndex)));
+            answerC.setSelected(false);
             answerD.setBackgroundResource(R.color.blue_button);
             answerD.setText(quizQuestions.getAnswerD(randomQuestionOrder.getInt(questionIndex)));
+            answerD.setSelected(false);
             answerE.setBackgroundResource(R.color.blue_button);
             answerE.setText(quizQuestions.getAnswerE(randomQuestionOrder.getInt(questionIndex)));
+            answerE.setSelected(false);
 
             // Android Studio told me not to concatenate in the setText method, so it's concatenated below
             questionNumberMessage = "Question " + (questionIndex + 1) + "/" + totalNumberOfQuestions;
