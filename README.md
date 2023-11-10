@@ -8,7 +8,7 @@ The code is written in Java and the application was developed using Android Stud
 
 Happy Quizzing!
 
-Randy Riegsecker
+_Randy Riegsecker_
 
 ## Title Screen
 
