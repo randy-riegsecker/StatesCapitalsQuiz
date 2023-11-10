@@ -12,8 +12,10 @@ Randy Riegsecker
 
 ## Title Screen
 
-![MainGameScreen](https://user-images.githubusercontent.com/120612915/213807320-d2221130-fca7-4c11-93b5-f9a66abd7818.png)
+![title](https://github.com/randy-riegsecker/StatesCapitalsQuiz/assets/120612915/af25298f-8372-4f34-a75b-576566ab980e)
 
 ## Quiz Screens
-![Quiz](https://user-images.githubusercontent.com/120612915/207758244-72e1b859-b7fa-423a-aea5-8905f0a39fd9.png)
-![End](https://user-images.githubusercontent.com/120612915/208124341-fa90f8a2-b69d-44be-90d4-8953f0700c55.png)
+
+![question](https://github.com/randy-riegsecker/StatesCapitalsQuiz/assets/120612915/f16d84e1-3f10-464e-8013-737d7c473a1f)
+![end](https://github.com/randy-riegsecker/StatesCapitalsQuiz/assets/120612915/31c1d339-9f85-4c53-aa56-2de03ec1f174)
+
