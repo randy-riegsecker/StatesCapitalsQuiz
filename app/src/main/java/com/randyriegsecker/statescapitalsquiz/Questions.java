@@ -20,7 +20,7 @@ public class Questions {
             // Question, Correct Answer, Wrong Answer 1, Wrong Answer 2, Wrong Answer 3, Wrong Answer 4
             {"What is the capital of Alabama?", "Montgomery", "Birmingham", "Huntsville", "Mobile", "Tuscaloosa"},
             {"What is the capital of Alaska?", "Juneau", "Anchorage", "Fairbanks", "Wasilla", "Valdez"},
-            {"What is the capital of Arizona?", "Phoenix", "Tucson", "Mesa", "Chandler", "Scottsdale"},
+            {"What is the capital of Arizona?", "Phoenix", "Tucson", "Mesa", "Sedona", "Scottsdale"},
             {"What is the capital of Arkansas?", "Little Rock", "Fayetteville", "Fort Smith", "Springdale", "Jonesboro"},
             {"What is the capital of California?", "Sacramento", "Los Angeles", "San Diego", "San Francisco", "Fresno"},
             {"What is the capital of Colorado?", "Denver", "Colorado Springs", "Aurora", "Boulder", "Grand Junction"},
@@ -31,7 +31,7 @@ public class Questions {
             {"What is the capital of Hawaii?", "Honolulu", "Oahu", "Pearl City", "Hilo", "Kailua"},
             {"What is the capital of Idaho?", "Boise", "Meridian", "Nampa", "Idaho Falls", "Caldwell"},
             {"What is the capital of Illinois?", "Springfield", "Chicago", "Aurora", "Joliet", "Rockford"},
-            {"What is the capital of Indiana?", "Indianapolis", "Fort Wayne", "Evansville", "South Bend", "Carmel"},
+            {"What is the capital of Indiana?", "Indianapolis", "Fort Wayne", "Muncie", "South Bend", "Evansville"},
             {"What is the capital of Iowa?", "Des Moines", "Cedar Rapids", "Davenport", "Sioux City", "Iowa City"},
             {"What is the capital of Kansas?", "Topeka", "Wichita", "Overland Park", "Kansas City", "Olathe"},
             {"What is the capital of Kentucky?", "Frankfort", "Louisville", "Lexington", "Bowling Green", "Owensboro"},

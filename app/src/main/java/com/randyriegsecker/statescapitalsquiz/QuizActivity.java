@@ -31,6 +31,9 @@ public class QuizActivity extends AppCompatActivity {
     Button currentClickedAnswer = null;
     Button lastClickedAnswer = null;
 
+    // Use for stopping many toasts queueing
+    Toast questionToast;
+
     TextView questionText;
     TextView questionNumberText;
 
@@ -119,20 +122,24 @@ public class QuizActivity extends AppCompatActivity {
                 if (correctAnswer == currentClickedAnswer.getText()) {
                     correctAnswerTotal++;
                     // Comment out the Toast if you don't want to tell the test taker the answer is correct
-                    Toast.makeText(getApplicationContext(), R.string.correct_answer, Toast.LENGTH_SHORT).show();
+                    // Toast.makeText(getApplicationContext(), R.string.correct_answer, Toast.LENGTH_SHORT).show();
+                    toastShow("Correct!");
                 } else {
                     // Comment out the two lines below if you don't want to let the test taker know the answer was wrong
                     correctAnswerToast = "Incorrect.  The correct answer is " + correctAnswer;
                     // This toast just reads "Incorrect answer, but does not tell you the correct one.
                     // Toast.makeText(getApplicationContext(), R.string.incorrect_answer, Toast.LENGTH_SHORT).show();
-                    Toast.makeText(getApplicationContext(), correctAnswerToast, Toast.LENGTH_SHORT).show();
+                    // This toast shows you the correct answer.
+                    // Toast.makeText(getApplicationContext(), correctAnswerToast, Toast.LENGTH_SHORT).show();
+                    toastShow(correctAnswerToast);
                 }
 
                 // On to the next question
                 ++questionIndex;
                 loadQuestion();
             } else {
-                Toast.makeText(getApplicationContext(), R.string.choose_an_answer, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), R.string.choose_an_answer, Toast.LENGTH_SHORT).show();
+                toastShow("Choose An Answer!");
             }
         }
     };
@@ -183,5 +190,15 @@ public class QuizActivity extends AppCompatActivity {
             });
             alert.show();
         }
+    }
+
+    public void toastShow(String message) {
+
+        if (questionToast != null ) {
+            questionToast.cancel();
+        }
+
+        questionToast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
+        questionToast.show();
     }
 }
