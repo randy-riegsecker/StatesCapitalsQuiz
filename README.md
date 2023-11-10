@@ -4,7 +4,7 @@ Each question has five possible multiple choice answers (mostly the well-known c
 
 Good luck! You might be the next Jeopardy champion!
 
-This application was developed using Android Studio and is written in Java.  It demonstrates the use basic use of multiple activities, shuffling, toast, and buttons.  While I am working on a publishing a generic quiz framework, this code could be modified to use with your own questions.
+This application was developed using Android Studio and is written in Java.  It demonstrates the use basic use of multiple activities, shuffling algorithms, toast, and lots of buttons.  While I am working on a publishing a generic quiz framework, this code could be modified to use with your own questions.
 
 Happy Quizzing!
 
