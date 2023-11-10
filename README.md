@@ -12,10 +12,9 @@ Randy Riegsecker
 
 ## Title Screen
 
-![title](https://github.com/randy-riegsecker/StatesCapitalsQuiz/assets/120612915/af25298f-8372-4f34-a75b-576566ab980e)
+![title](https://github.com/randy-riegsecker/StatesCapitalsQuiz/assets/120612915/46b9eabf-2b09-4291-acfa-8327c10a6f26)
 
 ## Quiz Screens
 
 ![question](https://github.com/randy-riegsecker/StatesCapitalsQuiz/assets/120612915/f16d84e1-3f10-464e-8013-737d7c473a1f)
-![end](https://github.com/randy-riegsecker/StatesCapitalsQuiz/assets/120612915/31c1d339-9f85-4c53-aa56-2de03ec1f174)
-
+![end](https://github.com/randy-riegsecker/StatesCapitalsQuiz/assets/120612915/d5132c2f-9c3f-4484-8bb8-c3bdf1c7ddc4)
