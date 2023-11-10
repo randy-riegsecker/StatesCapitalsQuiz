@@ -1,6 +1,6 @@
 # States & Capitals Quiz
 ![ic_map_round](https://user-images.githubusercontent.com/120612915/213807521-581bf2b0-9b25-4a21-bbd5-3fa85e66fbbe.png)**States & Capitals Quiz** tests your knowledge of the capitals of the 50 states in the United States.
-Each question has five possible multiple choice answers (mostly the well-known cities in each state) to guess from, with one correct answer.  To make the quiz more challenging, the question and answer order are randomized each time the quiz is started.  To help with learning, a Toast pops up with the correct answer if you get it wrong.  You can comment this out if you'd prefer to hide this.
+Each question has five possible multiple choice answers (mostly the well-known cities in each state) to guess from, with one correct answer.  To make the quiz more challenging, the question and answer order are randomized each time the quiz is started.  And help with learning, a Toast pops up letting you know you were correct or provides the correct answer if you get it wrong.
 
 Good luck seeing if you might be the next Jeopardy champion!
 
