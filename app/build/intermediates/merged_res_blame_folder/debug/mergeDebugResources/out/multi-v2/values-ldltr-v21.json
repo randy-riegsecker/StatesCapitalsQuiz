@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.randyriegsecker.statescapitalsquiz.app-mergeDebugResources-26:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Randy\\.gradle\\caches\\8.10.2\\transforms\\a43c2821b25dd67f5c861b54626f621e\\transformed\\appcompat-1.5.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

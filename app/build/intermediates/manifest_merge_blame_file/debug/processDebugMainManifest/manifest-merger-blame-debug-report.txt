@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.randyriegsecker.statescapitalsquiz"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="32" />
+10
+11    <application
+11-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:5:5-37:19
+12        android:allowBackup="true"
+12-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\Randy\.gradle\caches\8.10.2\transforms\91dee372e511261eb94ae8e51eca5f1f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:8:9-54
+18        android:icon="@mipmap/ic_map"
+18-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:9:9-38
+19        android:label="@string/app_name"
+19-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_map_round"
+20-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:11:9-49
+21        android:supportsRtl="true"
+21-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.StatesCapitalsQuiz" >
+23-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:13:9-56
+24        <activity
+24-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:16:9-27:20
+25            android:name="com.randyriegsecker.statescapitalsquiz.MainActivity"
+25-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:17:13-41
+26            android:exported="true"
+26-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:18:13-36
+27            android:screenOrientation="portrait" >
+27-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:19:13-49
+28            <intent-filter>
+28-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:20:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:21:17-69
+29-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:22:17-77
+31-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33
+34            <meta-data
+34-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:24:13-26:36
+35                android:name="android.app.lib_name"
+35-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:25:17-52
+36                android:value="" />
+36-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:26:17-33
+37        </activity>
+38        <activity
+38-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:29:9-36:20
+39            android:name="com.randyriegsecker.statescapitalsquiz.QuizActivity"
+39-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:30:13-41
+40            android:exported="false"
+40-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:31:13-37
+41            android:screenOrientation="portrait" >
+41-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:32:13-49
+42            <meta-data
+42-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:24:13-26:36
+43                android:name="android.app.lib_name"
+43-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:25:17-52
+44                android:value="" />
+44-->H:\AndroidStudioProjects\StatesCapitalsQuiz\app\src\main\AndroidManifest.xml:26:17-33
+45        </activity>
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Randy\.gradle\caches\8.10.2\transforms\87a4c6b8c47a7bae867aa302ab749b6d\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Randy\.gradle\caches\8.10.2\transforms\87a4c6b8c47a7bae867aa302ab749b6d\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+49            android:authorities="com.randyriegsecker.statescapitalsquiz.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Randy\.gradle\caches\8.10.2\transforms\87a4c6b8c47a7bae867aa302ab749b6d\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Randy\.gradle\caches\8.10.2\transforms\87a4c6b8c47a7bae867aa302ab749b6d\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Randy\.gradle\caches\8.10.2\transforms\87a4c6b8c47a7bae867aa302ab749b6d\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Randy\.gradle\caches\8.10.2\transforms\87a4c6b8c47a7bae867aa302ab749b6d\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Randy\.gradle\caches\8.10.2\transforms\87a4c6b8c47a7bae867aa302ab749b6d\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Randy\.gradle\caches\8.10.2\transforms\5576c51600f58acd30a4f3e7274bd950\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Randy\.gradle\caches\8.10.2\transforms\5576c51600f58acd30a4f3e7274bd950\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Randy\.gradle\caches\8.10.2\transforms\5576c51600f58acd30a4f3e7274bd950\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>
