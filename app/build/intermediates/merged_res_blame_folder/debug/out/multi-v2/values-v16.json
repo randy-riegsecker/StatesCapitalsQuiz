@@ -4,7 +4,7 @@
             "outputFile": "com.randyriegsecker.statescapitalsquiz.app-mergeDebugResources-27:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/randy/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Randy\\.gradle\\caches\\8.9\\transforms\\8262e11c51b282d004d265537d4829ff\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/randy/.gradle/caches/transforms-3/034f511a629c0fda711794a09fef4382/transformed/appcompat-1.5.1/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Randy\\.gradle\\caches\\8.9\\transforms\\a317751713b82894cf1e568a53ff0f93\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
